@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt2</title>
+</head>
+<body>
+<script>
+    let d = [];
+    for (let i = 0; i < 5; i++) {
+        let a = parseInt(prompt("nhap so"))
+        d.push(a)
+    }
+    function tbc(a) {
+        sum = 0;
+        for (var i = 0; i < a.length; i++) {
+            sum = sum + a[i]
+        }
+        return sum / a.length
+    }
+    alert("trung binh cong cua mang la:"+tbc(d));
+</script>
+</body>
+</html>
